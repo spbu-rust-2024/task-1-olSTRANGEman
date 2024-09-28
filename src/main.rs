@@ -14,8 +14,7 @@ fn main(){
         .collect();
     
     let mut step = a.len()/2;
-    
-    
+
     while step != 0{
         for i in 0..a.len(){
             for j in (0+i..a.len()-step).step_by(step).rev(){
