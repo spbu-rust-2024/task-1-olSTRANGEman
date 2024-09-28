@@ -29,6 +29,6 @@ fn main() {
     }   
     //можно ли сделать вывод без цикла как в python *array?
     for num in a{
-        print!("{}",num);
+        print!("{} ",num);
     }
 }
