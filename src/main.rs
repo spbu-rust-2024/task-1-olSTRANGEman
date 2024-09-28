@@ -1,6 +1,6 @@
 use std::io;
 
-fn main() {
+fn main(){
     let mut input = String::new();
     io::stdin()
         .read_line(&mut input)
@@ -29,6 +29,7 @@ fn main() {
     }   
     //можно ли сделать вывод без цикла как в python *array?
     for num in a{
-        print!("{} ",num);
+        print!("{num} ");
     }
+    print!("\n")
 }
